@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns="http://www.demandware.com/xml/impex/order/2006-10-31">
+    <order order-no="00005203">
+        <order-date>2018-11-29T14:05:41.000Z</order-date>
+        <created-by>storefront</created-by>
+        <original-order-no>00005203</original-order-no>
+        <currency>EUR</currency>
+        <customer-locale>fr</customer-locale>
+        <taxation>gross</taxation>
+        <invoice-no>02439763</invoice-no>
+        <customer>
+            <customer-no>00000001</customer-no>
+            <customer-name>Ewa Stec</customer-name>
+            <customer-email>ewa.stec@itelios.com</customer-email>
+            <billing-address>
+                <first-name>abdelilah</first-name>
+                <last-name>halim</last-name>
+                <address1>86 rue fabri de peiresc</address1>
+                <address2>appt 5119 bat a3</address2>
+                <city>montpellier</city>
+                <postal-code>34080</postal-code>
+                <country-code>FR</country-code>
+                <custom-attributes>
+                    <custom-attribute attribute-id="orc_mobile">0627156355</custom-attribute>
+                </custom-attributes>
+            </billing-address>
+        </customer>
+        <status>
+            <order-status>OPEN</order-status>
+            <shipping-status>SHIPPED</shipping-status>
+            <confirmation-status>CONFIRMED</confirmation-status>
+            <payment-status>PAID</payment-status>
+        </status>
+        <current-order-no>00005203</current-order-no>
+        <product-lineitems>
+            <product-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>La E-carte cadeau Orchestra</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <position>1</position>
+                <product-id>ecartecadeauGarcon</product-id>
+                <product-name>La E-carte cadeau Orchestra</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.2</tax-rate>
+                <shipment-id>04077051</shipment-id>
+                <option-lineitems>
+                    <option-lineitem>
+                        <net-price>9.17</net-price>
+                        <tax>1.83</tax>
+                        <gross-price>11.00</gross-price>
+                        <base-price>11.00</base-price>
+                        <lineitem-text>ecardAmount: 11</lineitem-text>
+                        <tax-basis>11.00</tax-basis>
+                        <option-id>ecardAmount</option-id>
+                        <value-id>11</value-id>
+                        <product-id>11</product-id>
+                    </option-lineitem>
+                </option-lineitems>
+                <gift>false</gift>
+                <custom-attributes>
+                    <custom-attribute attribute-id="orc_clubCardUnitPriceEconomy">0.0</custom-attribute>
+                    <custom-attribute attribute-id="orc_colombusTaxCode">1</custom-attribute>
+                    <custom-attribute attribute-id="orc_deliveryStatus">6</custom-attribute>
+                    <custom-attribute attribute-id="orc_gift_card_data">{"name":"halim Abdelilah","email":"ahalim@orchestra.fr","message":"2\tDesktop\tAvec\tPaypal\tgarcon\t12 €\tGMAIL/ORCH\t\t\t\tabdelorchestra@gmail.com/\r\nahalim@orchestra.fr","value":11,"expname":"Test TESTEUR"}</custom-attribute>
+                    <custom-attribute attribute-id="orc_gift_card_final">{"amount":11,"card_number":"5045075912515714455","card_currency":"978","card_pin":"4562","transaction_id":"0568880000043816","authorization_code":"594717","expiration_date":"20191229T0500Z"}</custom-attribute>
+                    <custom-attribute attribute-id="orc_gift_card_send">true</custom-attribute>
+                    <custom-attribute attribute-id="orc_inventory_source">DEPOT</custom-attribute>
+                    <custom-attribute attribute-id="orc_isClubCard">false</custom-attribute>
+                    <custom-attribute attribute-id="orc_is_gift_card">true</custom-attribute>
+                    <custom-attribute attribute-id="orc_lineTaxAdjusted">1.83</custom-attribute>
+                    <custom-attribute attribute-id="orc_lineTotalAdjusted">11.0</custom-attribute>
+                    <custom-attribute attribute-id="orc_non_club_unit_price_ttc">11.0</custom-attribute>
+                    <custom-attribute attribute-id="orc_proratedPrice">11.0</custom-attribute>
+                    <custom-attribute attribute-id="orc_proratedPriceHTUnit">9.166666666666668</custom-attribute>
+                    <custom-attribute attribute-id="orc_proratedPriceUnit">11.0</custom-attribute>
+                    <custom-attribute attribute-id="orc_proratedPriceUnit_String">11</custom-attribute>
+                    <custom-attribute attribute-id="orc_toDelivery">true</custom-attribute>
+                </custom-attributes>
+            </product-lineitem>
+        </product-lineitems>
+        <shipping-lineitems>
+            <shipping-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Shipping</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <item-id>STANDARD_SHIPPING</item-id>
+                <shipment-id>04077051</shipment-id>
+                <tax-rate>0.2</tax-rate>
+            </shipping-lineitem>
+        </shipping-lineitems>
+        <shipments>
+            <shipment shipment-id="04077051">
+                <status>
+                    <shipping-status>NOT_SHIPPED</shipping-status>
+                </status>
+                <shipping-method>subscription-delivery</shipping-method>
+                <shipping-address>
+                    <first-name>Abdelilah</first-name>
+                    <last-name>HALIM</last-name>
+                    <address1>Zone Artisanale Saint Antoine</address1>
+                    <address2>200 Avenue des Tamaris</address2>
+                    <city>SAINT AUNES</city>
+                    <postal-code>34130</postal-code>
+                    <country-code>FR</country-code>
+                    <phone>0627156355</phone>
+                    <custom-attributes>
+                        <custom-attribute attribute-id="orc_email">abdelorchestra@gmail.com</custom-attribute>
+                        <custom-attribute attribute-id="orc_id_m3">FR215</custom-attribute>
+                        <custom-attribute attribute-id="orc_mobile">0627156355</custom-attribute>
+                        <custom-attribute attribute-id="orc_shippingStoreCode">178A</custom-attribute>
+                        <custom-attribute attribute-id="orc_transportContract">TLC</custom-attribute>
+                        <custom-attribute attribute-id="orc_transportManagement">TLC</custom-attribute>
+                    </custom-attributes>
+                </shipping-address>
+                <gift>false</gift>
+                <totals>
+                    <merchandize-total>
+                        <net-price>9.17</net-price>
+                        <tax>1.83</tax>
+                        <gross-price>11.00</gross-price>
+                    </merchandize-total>
+                    <adjusted-merchandize-total>
+                        <net-price>9.17</net-price>
+                        <tax>1.83</tax>
+                        <gross-price>11.00</gross-price>
+                    </adjusted-merchandize-total>
+                    <shipping-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </shipping-total>
+                    <adjusted-shipping-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </adjusted-shipping-total>
+                    <shipment-total>
+                        <net-price>9.17</net-price>
+                        <tax>1.83</tax>
+                        <gross-price>11.00</gross-price>
+                    </shipment-total>
+                </totals>
+            </shipment>
+        </shipments>
+        <totals>
+            <merchandize-total>
+                <net-price>9.17</net-price>
+                <tax>1.83</tax>
+                <gross-price>11.00</gross-price>
+            </merchandize-total>
+            <adjusted-merchandize-total>
+                <net-price>9.17</net-price>
+                <tax>1.83</tax>
+                <gross-price>11.00</gross-price>
+            </adjusted-merchandize-total>
+            <shipping-total>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+            </shipping-total>
+            <adjusted-shipping-total>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+            </adjusted-shipping-total>
+            <order-total>
+                <net-price>9.17</net-price>
+                <tax>1.83</tax>
+                <gross-price>11.00</gross-price>
+            </order-total>
+        </totals>
+        <payments>
+            <payment>
+                <credit-card>
+                    <card-type>VISA</card-type>
+                    <card-number>XXXX-XXXX-XXXX-8287</card-number>
+                    <card-holder>abdelilah halim</card-holder>
+                    <expiration-month>9</expiration-month>
+                    <expiration-year>2021</expiration-year>
+                </credit-card>
+                <amount>11.00</amount>
+                <processor-id>PAYMENT_CREDIT_CARD</processor-id>
+                <transaction-id>4364388065</transaction-id>
+                <custom-attributes>
+                    <custom-attribute attribute-id="orc_acceptance">945046</custom-attribute>
+                    <custom-attribute attribute-id="orc_brand">VISA</custom-attribute>
+                    <custom-attribute attribute-id="orc_ncerror">0</custom-attribute>
+                    <custom-attribute attribute-id="orc_ncerrorPlus">!</custom-attribute>
+                    <custom-attribute attribute-id="orc_payment_mode">CB</custom-attribute>
+                    <custom-attribute attribute-id="paymentStatus">9</custom-attribute>
+                    <custom-attribute attribute-id="payment_paymentID">4364388065</custom-attribute>
+                </custom-attributes>
+            </payment>
+        </payments>
+        <notes>
+            <note>
+                <created-by>system</created-by>
+                <creation-date>2018-11-29T14:12:13.000Z</creation-date>
+                <subject>CBR_Q</subject>
+                <text>{"service":"Order","Type":"#WS-ORDER","method":"create","timestamp":1543500733714,"date":"29/11/2018 15:12","text":"{\"result\":true,\"CBR_queue_id\":\"687813\"}"}</text>
+            </note>
+            <note>
+                <created-by>system</created-by>
+                <creation-date>2018-11-29T14:12:13.000Z</creation-date>
+                <subject>CBR_Q</subject>
+                <text>{"service":"Order","Type":"#WS-TV-ACOMPTE","method":"create","timestamp":1543500733796,"date":"29/11/2018 15:12","text":"{\"result\":true,\"CBR_queue_id\":\"687814\"}"}</text>
+            </note>
+            <note>
+                <created-by>system</created-by>
+                <creation-date>2018-11-29T16:00:29.000Z</creation-date>
+                <subject>tracking</subject>
+                <text>Package : FMW-20350
+29/11/2018 17:00</text>
+            </note>
+        </notes>
+        <custom-attributes>
+            <custom-attribute attribute-id="bvSentInPPEFeed">true</custom-attribute>
+            <custom-attribute attribute-id="orc_3ds">true</custom-attribute>
+            <custom-attribute attribute-id="orc_amount_diff">0.0</custom-attribute>
+            <custom-attribute attribute-id="orc_amount_diffHT">0.0</custom-attribute>
+            <custom-attribute attribute-id="orc_billingPlan">F</custom-attribute>
+            <custom-attribute attribute-id="orc_checked">true</custom-attribute>
+            <custom-attribute attribute-id="orc_clubCardFirstName">Test</custom-attribute>
+            <custom-attribute attribute-id="orc_clubCardLastName">TESTEUR</custom-attribute>
+            <custom-attribute attribute-id="orc_clubCardSavings">0.0</custom-attribute>
+            <custom-attribute attribute-id="orc_colombusID">WDW-0000002724827</custom-attribute>
+            <custom-attribute attribute-id="orc_contain_gift_card">true</custom-attribute>
+            <custom-attribute attribute-id="orc_culture">fr-FR</custom-attribute>
+            <custom-attribute attribute-id="orc_deliveryStatus">6</custom-attribute>
+            <custom-attribute attribute-id="orc_giftCard_job_processed">true</custom-attribute>
+            <custom-attribute attribute-id="orc_inventories_details">
+                <value>{"sourceName":"DEPOT","productIds":["ecartecadeauGarcon"]}</value>
+            </custom-attribute>
+            <custom-attribute attribute-id="orc_isClubPrice">true</custom-attribute>
+            <custom-attribute attribute-id="orc_multiple_inventories">false</custom-attribute>
+            <custom-attribute attribute-id="orc_number_retry_close_order">2.0</custom-attribute>
+            <custom-attribute attribute-id="orc_orderTaxAdjusted">1.83</custom-attribute>
+            <custom-attribute attribute-id="orc_orderTotalAdjusted">11.0</custom-attribute>
+            <custom-attribute attribute-id="orc_order_exped">
+                <value>[{"ExpedId":"FMW-20350-9000303082","NumeroCommande":"00005203","CodeArticle":"SVW","Quantite":"1","NumeroColis":"FMW-20350","NumeroTracabilite":""}]</value>
+            </custom-attribute>
+            <custom-attribute attribute-id="orc_repository_details">{"DEPOT":{"sourceName":"DEPOT","productIds":["ecartecadeauGarcon"],"supportsShippingCosts":true}}</custom-attribute>
+            <custom-attribute attribute-id="orc_retry_close_order">true</custom-attribute>
+            <custom-attribute attribute-id="orc_shippingTaxAdjusted">0.0</custom-attribute>
+            <custom-attribute attribute-id="orc_shippingTotalAdjusted">0.0</custom-attribute>
+            <custom-attribute attribute-id="orc_shippingmethod">subscription-delivery</custom-attribute>
+            <custom-attribute attribute-id="orc_suspect">false</custom-attribute>
+            <custom-attribute attribute-id="orc_theoreticalDeliveryDate">2018-12-01</custom-attribute>
+            <custom-attribute attribute-id="orc_webSiteOriginCodeDef">WEBFR</custom-attribute>
+        </custom-attributes>
+    </order>
+
+</orders>
